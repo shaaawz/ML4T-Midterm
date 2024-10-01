@@ -108,12 +108,23 @@ data points as possible without being too rough or wiggly. Such approaches can h
   - In contrast, very flexible approaches can lead to such complicated estimates of f that it is difficult to understand how any individual predictor is associated with the response.
   - Finally, fully non-linear methods such as bagging, boosting, support vector machines with non-linear kernels, and neural networks (deep learning), discussed in
 are highly flexible approaches that are harder to interpret.
-- [ ] Supervised Statistical Learning Problems:  For each observation of the predictor measurement(s) xi, i = 1, . . . , n there is an associated response measurement yi. We wish to fit a model that relates the response to the predictors, with the aim of accurately predicting the response for future observations (prediction) or better understanding the relationship between the response and the predictors (inference).
-- [ ] Unsupervised Statistical Learning Problems: describes the somewhat more challenging situation in which for every observation i = 1, . . . , n, we observe
+- [ ] Supervised Statistical Learning Problems
+  -  For each observation of the predictor measurement(s) xi, i = 1, . . . , n there is an associated response measurement yi. We wish to fit a model that relates the response to the predictors, with the aim of accurately predicting the response for future observations (prediction) or better understanding the relationship between the response and the predictors (inference).
+- [ ] Unsupervised Statistical Learning Problems
+  - describes the somewhat more challenging situation in which for every observation i = 1, . . . , n, we observe
 a vector of measurements xi but no associated response yi. It is not possible to fit a linear regression model, since there is no response variable
-to predict. In this setting, we are in some sense working blind; the situation is referred to as unsupervised because we lack a response variable that can supervise our analysis. 
-- [ ]  Bayes Classifier
-- [ ]  - [ ] Mean Squared Error
+to predict. In this setting, we are in some sense working blind; the situation is referred to as unsupervised because we lack a response variable that can supervise our analysis.
+- [ ] Cluster Analysis / Clustering
+  - The goal of cluster analysis is to ascertain, on the basis of x1, . . . , xn, whether the observations fall into analysis
+relatively distinct groups.
+- [ ] Regression Problems
+  - Quantitative variables
+- [ ] Classification Problems
+  - Qualitative (categorical) variables
+- [ ] 
+- [ ] Mean Squared Error
   - MSE = Σ(yi − pi)2n
   - measures how well predictions match observed data, small MSE means predictions close to responses
+  - 
+- [ ]  Bayes Classifier
 - [ ] 
