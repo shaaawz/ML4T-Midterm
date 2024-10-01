@@ -100,14 +100,7 @@ data points as possible without being too rough or wiggly. Such approaches can h
 - [ ] Overfitting
   - a method that yields a smal training MSE but a large test MSE
   - Model follow the errors, or noise, too closely
-- [ ] [Bias / Variance trade off](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)
-  - Challenge lies in finding a mathod for which variance and bias are low
-  - low bias, high variance means curve passes thorugh every single training observation
-  - low variance, high bias means fitting horizontal line to the data
-  - If we are mainly interested in inference, then restrictive models are much more interpretable. For instance, when inference is the goal, the linear model may be a good choice since it will be quite easy to understand the relationship between Y and X1, X2, . . . , Xp.
-  - In contrast, very flexible approaches can lead to such complicated estimates of f that it is difficult to understand how any individual predictor is associated with the response.
-  - Finally, fully non-linear methods such as bagging, boosting, support vector machines with non-linear kernels, and neural networks (deep learning), discussed in
-are highly flexible approaches that are harder to interpret.
+
 - [ ] Supervised Statistical Learning Problems
   -  For each observation of the predictor measurement(s) xi, i = 1, . . . , n there is an associated response measurement yi. We wish to fit a model that relates the response to the predictors, with the aim of accurately predicting the response for future observations (prediction) or better understanding the relationship between the response and the predictors (inference).
 - [ ] Unsupervised Statistical Learning Problems
@@ -121,10 +114,25 @@ relatively distinct groups.
   - Quantitative variables
 - [ ] Classification Problems
   - Qualitative (categorical) variables
-- [ ] 
 - [ ] Mean Squared Error
   - MSE = Σ(yi − pi)2n
   - measures how well predictions match observed data, small MSE means predictions close to responses
-  - 
+  -  trainings MSE vs test MSE
+- [ ] Degrees of Freedom - a quantity that summarizes the flexibility of a curve
+- [ ] Cross-Validation - is a crossmethod for estimating the test MSE using the training data.
+- [ ] [Bias / Variance trade off](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)
+  - Challenge lies in finding a mathod for which variance and bias are low
+  - low bias, high variance means curve passes thorugh every single training observation
+  - low variance, high bias means fitting horizontal line to the data
+  - If we are mainly interested in inference, then restrictive models are much more interpretable. For instance, when inference is the goal, the linear model may be a good choice since it will be quite easy to understand the relationship between Y and X1, X2, . . . , Xp.
+  - In contrast, very flexible approaches can lead to such complicated estimates of f that it is difficult to understand how any individual predictor is associated with the response.
+  - Finally, fully non-linear methods such as bagging, boosting, support vector machines with non-linear kernels, and neural networks (deep learning), discussed in
+are highly flexible approaches that are harder to interpret.
 - [ ]  Bayes Classifier
-- [ ] 
+  - Computing the Bayes classifier is impossible. Therefore, the Bayes classifier serves as an unattainable gold standard
+against which to compare other methods. 
+- [ ]  K-Nearest Neighbors
+  -  Given a positive integer K and a test observation x0, the KNN classifier first identifies the K points in the training data that are closest to x0, represented by N0. It then estimates the conditional probability for class j as the fraction of points in N0 whose response values equal j
+  -  Better for unbiased
+  -  finds average of the y-values of the K neighbors to x0 test observation
+
