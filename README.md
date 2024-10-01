@@ -241,7 +241,7 @@ relationship between X and Y.
 - [ ]  
 
 ## What Hedge Funds Really Do (Chap 2, 4, 5, 7, 8, and 12)
-**Chapter 2**
+**Chapter 2: So You Wnat to Be a Hedge FUnd Manager**
 - [ ]  4 Strageties of Funds
   - Equity - emphasis on stock selection
   - Arbitrage - where managers seek instances where price relationships between assets fall outside normal variation, and bet on the relationship returning to normal
@@ -261,7 +261,31 @@ relationship between X and Y.
     - you can approximate the number of periods that will be needed for a sum to double by dividing the CAGR (in whole numbers) into the number 72
     - 6% CAGR: 72/6 = 12 years to double
     - if portfolio doubled over 15 years, that means CAGR = (72/15) = 4.8%
-- [ ]  
+**Chapter 4: Market-Making Mechanics**
+- [ ] Markets - locations where sellers and customers convene to exchange goods, or financial instruments
+- [ ] Investors transact exchanges thorugh brokerage firms, who in turn trade with market makers (specialists)
+- [ ] NASDAQ - no floor, all tradining occurs electronically, no specialists
+- [ ] Market Spreads
+  - Bid Price: the price at which a buyer may purchase a stock
+  - Ask Price: The price at which the seller will sell the stock
+  - Market Spreads: The difference between the ask and bid price. It represents the profit opportunity that induces the specialists to connect sellers and buyers
+  - Highly liquid markets tend to have smaller spreads 
+- [ ] Types of Orders
+  - Buy, Sell, "At market", "Limit order"
+  - Selling Short - bet that a stock's price will fall
+    - Investor borrows shares from a holder and sells them earning the proceeds of the sale. Later, they buy the same number of shares and return them to the lender
+    - Investor pays interest to the owner of the shares borrowed and the dividents entitled during borrowing period
+    - Two transactions involved: sell to open and buy to close
+    - risky because long-term trends move upwards so the premise of a short is the stock will move in the opposite direction
+    - few hedge funds are short only
+  - Going Long - stock price will rise
+  - Stop orders -place a market order if the price of the stock falls more than a certain threshhold (stop loss)
+  - Trailing stops - equivalent to stop orders, but make the condition the most recent high to preserve the most of hte gains
+- [ ] The Order Book
+  - Shares being offered (ask)
+  - Shares being requested (bid)
+- [ ] 
+- [ ] 
 # ADDITIONAL RESOURCES: 
 
 - [ ] https://lucylabs.gatech.edu/ml4t/#
