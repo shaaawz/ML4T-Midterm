@@ -204,3 +204,8 @@ against which to compare other methods.
   -  Better for unbiased
   -  finds average of the y-values of the K neighbors to x0 test observation
 
+# ADDITIONAL RESOURCES: 
+
+- [ ] https://lucylabs.gatech.edu/ml4t/#
+- [ ] [Octavian Blaga Class Notes Spring 2017 ](https://docs.google.com/document/d/1BpDrMJDqx3sGt5-hoSTF3hJZVOf04hO_8ERdLHWP5A0/edit#heading=h.m1fuz8pxxckd)
+- [ ] https://github.com/manikandan-ravikiran/ML4T-Notes/tree/master
