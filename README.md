@@ -261,6 +261,8 @@ relationship between X and Y.
     - you can approximate the number of periods that will be needed for a sum to double by dividing the CAGR (in whole numbers) into the number 72
     - 6% CAGR: 72/6 = 12 years to double
     - if portfolio doubled over 15 years, that means CAGR = (72/15) = 4.8%
+
+
 **Chapter 4: Market-Making Mechanics**
 - [ ] Markets - locations where sellers and customers convene to exchange goods, or financial instruments
 - [ ] Investors transact exchanges thorugh brokerage firms, who in turn trade with market makers (specialists)
