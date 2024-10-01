@@ -2,7 +2,7 @@
 # ML4T Midterm Study Guide
 Topics in ML4T to study for Midterm
 
-## NOTES FROM LECTURES:  
+# NOTES FROM LECTURES:  
 - [ ] Pandas Dataframes 
 
   - Slicing
@@ -46,7 +46,7 @@ Topics in ML4T to study for Midterm
   - In statistics, the Pearson correlation coefficient (PCC) is a correlation coefficient that measures linear correlation between two sets of data. 
 
  
-# Portfolio Statistics
+## Portfolio Statistics
 
 - [ ] Bollinger Bands - Bollinger Bands are a technical analysis tool used by traders to assess price volatility and identify potential entry and exit points in the stock market. They are made up of three lines:  
 
@@ -73,4 +73,6 @@ Topics in ML4T to study for Midterm
 
 - [ ] Standard deviation of Daily Returns (risk) 
 
-- [ ] Sharpe Ratio – Return in context of risk 
+- [ ] Sharpe Ratio – Return in context of risk
+
+## Assessing Model Accuracy 
