@@ -75,6 +75,77 @@ Topics in ML4T to study for Midterm
 
 - [ ] Sharpe Ratio – Return in context of risk
 
+## Assessing Learning Statistics
+- [ ] Linear Regression
+  - Parametric models can extrapolate where data will continue to go
+- [ ] KNN Solution
+  - Find k closest values, take mean of their y to get ŷ (y prediction)
+  - querying model from left to right
+  - model cannot extrapolate, ends stay stagnant
+- [ ] Overfit - matches dataset exactly (k=1)
+  - as we decrease k, we are more likely to overfit
+  - as d (degrees of polynomial) increases, we are more likely to overfit
+- [ ]  RMSE error (Root Mean Squared Error)
+  - square error at each point, square it, and take the square root of that #
+  - RMSE = sqrt [(Σ(Ytest – Ypredict)²) / n]
+- [ ]  Cross Validation
+  - resampling and sample splitting methods that use different portions of the data to test and train a model on different iterations
+  - training (60%) test (40%)
+  - Training Data is always before testing data (time sensitive)
+- [ ]  As RMS increases, correltaion (mostly, but not always) decreases
+- [ ]  Linear Regression VS KNN
+  - Space Saving? Linear Regression better
+  - Compute time to train? KNN better
+  - Compute time to query? Linear Regression better
+  - Ease to add new data? KNN better
+- [ ]  Entropy
+  - measures diversity and randomness of sample
+- [ ]  Ensemble Learners
+  - Train models with different leaf sizes/data sets/differing degrees
+  - lower error, less overfitting
+- [ ]  Bootstrap Aggregation - Bagging
+  - random samples with replacement (same data can be used in multiple bags)
+  - take in data, shuffle data, and insert n into bag
+## Computational Investing
+- [ ] Types of Funds
+  - ETF: Electronically Exchange Traded Funds (usually 3-4 letters)
+    - Buy/sell like-stocks or baskets of stocks
+    - Transparent
+    - Liquid - ease one can buy/sell
+  - Mututal Funds - Exchange Through Broker (5 letters)
+    - Buy/Sell at end of the day
+    - Quarterly disclosure
+    - Less transparent
+  - Hedge Funds
+    - Buy/Sell by agreement
+    - No disclosure
+    - Not transparent
+    - More Risky, More Profits
+- [ ] Large "Cap" / Capilization
+  - How much is a company worth according to( # of shares that are outstanding * price of the stock)
+- [ ] Assets Under Management (AUM)
+  - How Managers are Compensated:
+    - ETFs - Expense Ratio (AUM) - Range: 0.01% - 1.00%
+    - Mutual Funds - Expense Ratio (AUM) - Range: 0.5% - 3.00%
+    - Hedge Funds - "Two & Twenty" - 2.00% AUM + 20% of the profits
+- [ ] How Funds Attract Investors
+  - Who Are Investors?
+    - Rich Individuals
+    - Institutions
+    - Funds of Funds (Groups of Individuals / Institutions)
+  - Why Investors choose to invest?
+    - Track record of Manager (returns in the past 5 years)
+    - Simulation & Story (Description of Method used)
+    - Good Portfolio Fit
+  - [ ] Goals of Funds
+    - Beat a benchmark (SP500)
+    - Absolute return
+  - [ ] Metrics used to assess:
+     - Cumulative returns
+     - Volatility (standard deviation)
+     - Risk Adjusted Reward (Sharpe Ratio)
+
+
 # NOTES FROM READINGS:  
 ## Introduction to Statistical Learning with Applications in Python
 ### Chapter 2: Statistical Learning
