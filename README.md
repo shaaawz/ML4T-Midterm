@@ -241,6 +241,26 @@ relationship between X and Y.
 - [ ]  
 
 ## What Hedge Funds Really Do (Chap 2, 4, 5, 7, 8, and 12)
+**Chapter 2**
+- [ ]  4 Strageties of Funds
+  - Equity - emphasis on stock selection
+  - Arbitrage - where managers seek instances where price relationships between assets fall outside normal variation, and bet on the relationship returning to normal
+  - Momentum/Direction - where managers have a macro view of hte probable direction of the price in a market
+  - Event-Driven - trades instigate based on an event (war, merger, supply distruption)
+- [ ]  Long-only
+  - make money only if the asset rises in price
+- [ ]  Short-only
+  - profit if the asset price falls
+- [ ]  Hedged
+  - long and short
+- [ ]  "130/30" equity strategy: 130 long (borrowing 30% over and above 100% equity capital) and 30% short of the portfolio
+- [ ] CAGR (compounded annual growth return)
+  - the rate of return that an investment would need to have every year in order to grow from its beginning balance to its ending balance, over a given time interval.
+  - if CAGR = 7.2% - that means that a portfolio that grows 7.2% on average each year, will double in size in 10 years
+  - Rule of 72 (approximation of compounding)
+    - you can approximate the number of periods that will be needed for a sum to double by dividing the CAGR (in whole numbers) into the number 72
+    - 6% CAGR: 72/6 = 12 years to double
+    - if portfolio doubled over 15 years, that means CAGR = (72/15) = 4.8%
 - [ ]  
 # ADDITIONAL RESOURCES: 
 
