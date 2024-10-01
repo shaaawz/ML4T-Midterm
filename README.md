@@ -1,12 +1,12 @@
 
 # ML4T Midterm Study Guide
-Topics in ML4T to study for Midterm
+Topics in ML4T to study for Midterm - feel free to add your notes!
 
 # NOTES FROM LECTURES:  
 - [ ] Detailed Breakdown of Each Lesson: 
   - [Octavian Blaga Class Notes Spring 2017 ](https://docs.google.com/document/d/1BpDrMJDqx3sGt5-hoSTF3hJZVOf04hO_8ERdLHWP5A0/edit#heading=h.m1fuz8pxxckd)
 
-## Higher Level Review Points:
+## High Level Review Points from Lessons
 ## Comparing Plots
 
 - [ ] Expected Value 
@@ -152,7 +152,7 @@ Topics in ML4T to study for Midterm
 ## Handbook of AI and Big Data (Chap 1, 2, 7)
 - [ ]  
 ## Python for Fianance
-
+- [ ]  
 ## Deep Learning (Chap 1, 2.1, 2.2)
 - [ ]  
 
@@ -224,8 +224,18 @@ relationship between X and Y.
   - β0 and β1 are two unknown constants that represent the intercept and slope terms in the linear model. Together, β0 and β1 are known as the model coefficients or parameters.
 - [ ] RSS (Residual Sum of Squares)
   - measures the level of variance in the error term, or residuals, of a regression model. The smaller the residual sum of squares, the better your model fits your data; the greater the residual sum of squares, the poorer your model fits your data
-- [ ]  population regression line
-  - which is the best linear approximation to the true relationship between X and Y
+- [ ]  Population Regression Line
+  - which is the best linear approximation to the **true** relationship between X and Y
+- [ ] Least Square Line
+  -  it is the least squares **estimate** for f(X) based on the observed data
+- [ ] P-value
+  - a small p-value indicates that it is unlikely to observe such a substantial association between the predictor and the response due to chance, in the absence of any real association between the predictor and the response
+- [ ] Residual Standard Error (RSE) (formula on page 78) and used in calculating R2
+  -  an estimate of the standard deviation of ε. Roughly speaking, it is the average amount that the response will deviate from the true regression line.
+  -  The RSE provides an absolute measure of lack of fit of the model to the data
+- [ ] Correlation
+  - another measure of the linear relationship between X and Y
+- [ ]   
      
 ## Machine Learning (Chap 1, 3, 8)
 - [ ]  
