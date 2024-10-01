@@ -144,7 +144,16 @@ Topics in ML4T to study for Midterm
 
 
 # NOTES FROM READINGS:  
-## Introduction to Statistical Learning with Applications in Python
+## Probablistic Machine Learning (Chap 1)
+- [ ]
+## Handbook of AI and Big Data (Chap 1, 2, 7)
+- [ ]  
+## Python for Fianance
+
+## Deep Learning (Chap 1, 2.1, 2.2)
+- [ ]  
+
+## Introduction to Statistical Learning with Applications in Python (Chap 1, 2.2, 3.1-3.3, 3.5, 8.1 - 8.2)
 ### Chapter 2: Statistical Learning
 - [ ] input variables X1, X2, . . . , Xp.
   - Also known as predictors, independent variables, features 
@@ -203,7 +212,23 @@ against which to compare other methods.
   -  Given a positive integer K and a test observation x0, the KNN classifier first identifies the K points in the training data that are closest to x0, represented by N0. It then estimates the conditional probability for class j as the fraction of points in N0 whose response values equal j
   -  Better for unbiased
   -  finds average of the y-values of the K neighbors to x0 test observation
+### Chapter 3: Linear Regression (3.1 - 3.3)
+- [ ] Simple linear regression
+  - lives up to its name: it is a very straightforward
+simple linear approach for predicting a quantitative response Y on the basis of a single predictor variable X. It assumes that there is approximately a linear
+relationship between X and Y.
+  - Y ≈ β0 + β1X
+  - β0 and β1 are two unknown constants that represent the intercept and slope terms in the linear model. Together, β0 and β1 are known as the model coefficients or parameters.
+- [ ] RSS (Residual Sum of Squares)
+  - measures the level of variance in the error term, or residuals, of a regression model. The smaller the residual sum of squares, the better your model fits your data; the greater the residual sum of squares, the poorer your model fits your data
+- [ ]  population regression line
+  - which is the best linear approximation to the true relationship between X and Y
+     
+## Machine Learning (Chap 1, 3, 8)
+- [ ]  
 
+## What Hedge Funds Really Do (Chap 2, 4, 5, 7, 8, and 12)
+- [ ]  
 # ADDITIONAL RESOURCES: 
 
 - [ ] https://lucylabs.gatech.edu/ml4t/#
