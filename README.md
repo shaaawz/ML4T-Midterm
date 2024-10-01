@@ -144,7 +144,25 @@ Topics in ML4T to study for Midterm - feel free to add your notes!
      - Cumulative returns
      - Volatility (standard deviation)
      - Risk Adjusted Reward (Sharpe Ratio)
-
+## Company Worth 
+  - [ ] Instrinsic value - Future Value/ Discount Rate
+  - [ ] Book Value - Total assets - Intangible assets + Liabilities
+  - [ ] Market Capitilization - # of shares * price of shares
+  - [ ] Information can affect stocks:
+      - Company specific
+      - section specific
+      - market wide
+  - [ ] Capital Assets Pricing Model (CAPM)
+      - Beta * market stock + alpha of stock on that day (residual)
+      - Alpha's expected value is zero and random
+      - Beta slope of the line of index's return compared to market returns
+        - Larger beta better in upwards markets so you can ride the surge
+        - Smaller beta better in downward markets, so you dont crash too much   
+      - buy Index and hold
+  - [ ] Active Managers
+      - alpha can be predicted
+      - pick individual stocks with different weights
+  - [ ] 
 
 # NOTES FROM READINGS:  
 ## Probablistic Machine Learning (Chap 1)
@@ -284,9 +302,14 @@ relationship between X and Y.
   - Stop orders -place a market order if the price of the stock falls more than a certain threshhold (stop loss)
   - Trailing stops - equivalent to stop orders, but make the condition the most recent high to preserve the most of hte gains
 - [ ] The Order Book
-  - Shares being offered (ask)
-  - Shares being requested (bid)
-- [ ] 
+  - Shares being offered (ask) (WANTING TO SELL)
+  - Shares being requested (bid) (WANTING TO BUY)
+  - More shares being offered than requested suggests share price will decline
+- [ ] Dark pools - informal exchanges among brokerage firms pools
+- [ ] Competitive advantage hinges on milliseconds
+- [ ] Front running - broker issues trades in advance of those of its clients, knowing the price movements that will result in executing the client orders (ethics are dubious)
+
+**Chapter 5: Introduction to Company Valuation**
 - [ ] 
 # ADDITIONAL RESOURCES: 
 
