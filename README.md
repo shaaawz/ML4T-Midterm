@@ -3,11 +3,8 @@
 Topics in ML4T to study for Midterm
 
 # NOTES FROM LECTURES:  
-- [ ] Pandas Dataframes 
 
-  - Slicing
-
-- [ ] NumPy Arrays 
+## Comparing Plots
 
 - [ ] Expected Value 
 
