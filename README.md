@@ -206,8 +206,7 @@ often be time consuming and expensive
 - [ ] The difference from supervised learning (SL) is that the system is not told which action is the best one to take (i.e., which output to produce for a given input). Instead, the system just receives an occasional reward (or punishment) signal in response to the actions that it takes. This is like learning with a critic, who gives an occasional thumbs up or thumbs down, as opposed to learning with a teacher, who tells you what to do at each step.
 ## Handbook of AI and Big Data (Chap 1, 2, 7)
 - [ ]  
-## Python for Fianance
-- [ ]  
+
 ## Deep Learning (Chap 1, 2.1, 2.2)
 - [ ]  
 
@@ -290,8 +289,9 @@ relationship between X and Y.
   -  The RSE provides an absolute measure of lack of fit of the model to the data
 - [ ] Correlation
   - another measure of the linear relationship between X and Y
-- [ ]   
-     
+
+### Chapter 8: Tree Based Models (8.1 - 8.2)
+- [ ]  Predicted Values are known as terminal nodes or leaves of the tree. Decision trees are typically drawn upside down, the bottom of the tree. The points along the tree where the predictor space is split are referred to as internal nodes.
 ## Machine Learning (Chap 1, 3, 8)
 - [ ]  
 
