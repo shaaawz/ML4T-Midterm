@@ -166,7 +166,39 @@ Topics in ML4T to study for Midterm - feel free to add your notes!
 
 # NOTES FROM READINGS:  
 ## Probablistic Machine Learning (Chap 1)
-- [ ]
+- [ ] Machine Learning: A computer program is said to learn from experience E with respect to some class of tasks T,
+and performance measure P, if its performance at tasks in T, as measured by P, improves with
+experience E
+- [ ] Probabilistic Perspective: all future values of quantity of interest are random varibles endowed with probablity distribution which describe a weighted set of possible values the variables may have
+  - This is hte optimal approach to decision making under uncertainty
+  - probabilistic modeling is used in other areas of science and engineering and provides a unifying framewokr w thse fields
+- [ ] Supervised Learning: learn a mapping of f from inputs x to outputs y. x are features/covariates/predictors, y are the target,label, response. N (sample size) of the x-y pairs are given as a training set. Performance depends on the type of output we are predicting.
+  - Goal of Supervised Learning is to automatically come up with classification models so as to reliably predict the labels for any given input
+- [ ] Classification problems: output is unordered and mutally exclusive labels known as classes. Predicting the class label, given an input, is called pattern recognition. When there are two classes, it is called binary classification
+- [ ] Function that is useful for challenging classification problems: Convolution Neural Networks (CNN)
+- [ ] When we have small datasets of features, it is common to store them in an N × D matrix, in which each row represents an example, and each column represents a feature. This is known as a **design matrix**
+- [ ] Tabular Data - when inputs are of variable size (sequences of words or social networks) rather than fixed-length vectors
+- [ ] Featurization = process of converting tabular data into a fixed-size feature representation thus allowing a design matrix to be used for future processing, example: "bag of words" representation
+- [ ] Exploratory data analysis: before using ML, seeing if there are any obvious patterns which might giv eus hints on which method to choose or any obivous problems with the data (example:: label noise or outliers)
+- [ ] Pair Plot - Scatterplot of variables, used for tabular dtaa with small number of features to see commonalities
+- [ ] Dimensionality reduction - used for higher-dimension data, allows data to be visualized in 2d or 3d
+- [ ] Decision rule = a rule that allows a class (target) to be distinguishable from other classes
+- [ ] Decision boundaries - points that seperate one class from another class
+- [ ] Decision Tree - Nested Decision rules and Decision Boundaries that use internal nodes that store feature indezes and corresponding threshold values to seperate data into classes
+- [ ] Empirical Risk Minimization
+- [ ] Misclassification Rate: performance of Supervised Learner to correctly classify features in the training set. Equation of page 6. I(e) is the binary indicator function, which returns 1 if e is true and returns 0 otherwise. Formula used if all errors are equal.
+- [ ] An Asymmetric Loss Function is used if some errors are more costly than other errors.
+- [ ] **Empirical risk** is the average loss of the predictor on the training set.
+- [ ] Model Fitting / training: finidng a setting of the parameters that minimizes the emprical risk on the training set. This only minimizes in training set and does not necessilarly minimize expected loss on future data.
+- [ ] In many cases, we will not be able to perfectly predict the exact output given the input, due to lack of knowledge of the input-output mapping (this is called **epistemic uncertainty or mode  uncertainty**), and/or due to intrinsic (irreducible) stochasticity in the mapping (this is called **aleatoric uncertainty or data uncertainty**).
+- [ ] In statistics, the w parameters are usually called regression coefficients (and are typically denoted by β) and b is called the intercept. In ML, the parameters w are called the weights and b is called the bias. 
+- [ ]  S good model (with low loss) is one that assigns a high probability to the true output y for each corresponding input x.
+- [ ]  Regression - real valued quantity instead of class labels. Empircal risk when using quadratic loss is equal to Mean Squared Error or MSE
+- [ ]  Simple Linear Regression model: f(x; θ) = b + wx. where w is the slope, b is the offset, and θ = (w, b) are all the parameters of the model. By adjusting θ, we can minimize the sum of squared errors until we find the **least squares solution**
+- [ ]  Polynomial Regression Model of degree D can improve the fit of the data. This is called **feature preprocessing, also called feature engineering**
+- [ ]   A model that perfectly fits the training data, but which is too complex, is said to suffer from **overfitting**
+- [ ]   We create two subsets of the data: training and testing sets in order to calculate the different between the empirical risk of the trianing set and the "population risk" of the testing set. This difference is called the generalization gap. Large gap indicates overfitting
+- [ ]   In practice, we need to partition the data into three sets, namely the training set, the test set and a validation set; the latter is used for model selection, and we just use the test set to estimate future performance (the population risk)
 ## Handbook of AI and Big Data (Chap 1, 2, 7)
 - [ ]  
 ## Python for Fianance
