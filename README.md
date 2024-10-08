@@ -10,29 +10,18 @@ Topics in ML4T to study for Midterm - feel free to add your notes!
 ## Comparing Plots
 
 - [ ] Expected Value 
-
   - Mean of random value in independent repetitions of the experiment 
-
 - [ ] PMF: Probability Mass Function 
 
 - [ ] Kurtosis 
-
   - Tails of distribution, positive kurtosis = fat tails (more occurrences outside in the tails than normal distribution) 
-
 - [ ] Histograms for comparing daily returns  
-
   - Lower/higher returns vs lower/higher volatility  
-
 - [ ] Daily Returns 
-
 - [ ] Scatterplots 
-
   - Fit Line – Linear Regression 
-
 - [ ] Alpha – Where line intercepts vertical axis. 
-
   - If Alpha is positive, stock performs better than S&P each day 
-
 - [ ] Beta – Slope (greater beta means stock is more reactive to market). If slope=2 means when market goes up 1%, stock goes up 2% 
 
   - Slope DOES NOT equal correlation  
@@ -172,13 +161,14 @@ experience E
 - [ ] Probabilistic Perspective: all future values of quantity of interest are random varibles endowed with probablity distribution which describe a weighted set of possible values the variables may have
   - This is hte optimal approach to decision making under uncertainty
   - probabilistic modeling is used in other areas of science and engineering and provides a unifying framewokr w thse fields
-- [ ] Supervised Learning: learn a mapping of f from inputs x to outputs y. x are features/covariates/predictors, y are the target,label, response. N (sample size) of the x-y pairs are given as a training set. Performance depends on the type of output we are predicting.
+- [ ] Supervised Learning: learn a mapping of f from inputs x to outputs y. x are features/covariates/predictors, y are the target,label, response. N (sample size) of the x-y pairs are given as a training set. Performance depends on the type of output we are predicting. In supervised learning, we assume that each input example x in the training set has an associated
+set of output targets y, and our goal is to learn the input-output mapping
   - Goal of Supervised Learning is to automatically come up with classification models so as to reliably predict the labels for any given input
 - [ ] Classification problems: output is unordered and mutally exclusive labels known as classes. Predicting the class label, given an input, is called pattern recognition. When there are two classes, it is called binary classification
 - [ ] Function that is useful for challenging classification problems: Convolution Neural Networks (CNN)
 - [ ] When we have small datasets of features, it is common to store them in an N × D matrix, in which each row represents an example, and each column represents a feature. This is known as a **design matrix**
 - [ ] Tabular Data - when inputs are of variable size (sequences of words or social networks) rather than fixed-length vectors
-- [ ] Featurization = process of converting tabular data into a fixed-size feature representation thus allowing a design matrix to be used for future processing, example: "bag of words" representation
+- [ ] Featurization = process of converting tabular data into a fixed-size feature representation thus allowing a design matrix to be used for future processing, example: "bag of words" representation (discussed on page 24)
 - [ ] Exploratory data analysis: before using ML, seeing if there are any obvious patterns which might giv eus hints on which method to choose or any obivous problems with the data (example:: label noise or outliers)
 - [ ] Pair Plot - Scatterplot of variables, used for tabular dtaa with small number of features to see commonalities
 - [ ] Dimensionality reduction - used for higher-dimension data, allows data to be visualized in 2d or 3d
@@ -199,6 +189,21 @@ experience E
 - [ ]   A model that perfectly fits the training data, but which is too complex, is said to suffer from **overfitting**
 - [ ]   We create two subsets of the data: training and testing sets in order to calculate the different between the empirical risk of the trianing set and the "population risk" of the testing set. This difference is called the generalization gap. Large gap indicates overfitting
 - [ ]   In practice, we need to partition the data into three sets, namely the training set, the test set and a validation set; the latter is used for model selection, and we just use the test set to estimate future performance (the population risk)
+- [ ]   An arguably much more interesting task is to try to “make sense of” data, as opposed to just learning a mapping. That is, we just get observed “inputs” D = {x of n : n = 1 : N} without any corresponding “outputs” y of n. This is called **unsupervised learning**.
+- [ ]   From a probabilistic perspective, we can view the task of unsupervised learning as fitting an unconditional model of the form p(x), which can generate new data x, whereas supervised learning involves fitting a conditional model, p(y|x), which specifies (a distribution over) outputs given inputs
+- [ ]   **Unsupervised Learning**:
+  - avoids the need to collect large labeled datasets for training, which can
+often be time consuming and expensive
+  - avoids the need to learn how to partition the world into often arbitrary categories. Tasks can be difficult to define and therefore not reasonable to expect machines to learn mappings
+  - forces the model to “explain” the high-dimensional inputs, rather than just the low-dimensional outputs
+- [ ] Unsupervised learning tries to find **clusters** in the data. The goal is to partition the input into regions that contain “similar” points.
+- [ ] Latent factors of variations - factors that are hidden or unobsereved in low dimensions, but cause causation to the target
+- [ ] **Self-supervised learning** - a sub approach to unsupervised leanring where we create proxy supervised tasks from unlabeled data. For example, we might try to learn to predict a color image from a grayscale image, or to mask out words in a sentence and then try to predict them given the surrounding context. The hope is that the resulting predictor xˆ1 = f(x2; θ), where x2 is the observed input and xˆ1 is the predicted output, will learn useful features from the data, that can then be used in standard, downstream supervised tasks.
+- [ ] Unsupervised Learning is hard to evaluate becauset here is no ground truth to compare to
+  - Common method to evaluate:  measure the probability assigned by the model to unseen test examples. We can do this by computing the (unconditional) negative log likelihood of the data - equation on page 16
+- [ ] This treats the problem of unsupervised learning as one of **density estimation**. The idea is that a good model will not be “surprised” by actual data samples
+- [ ] **Reinforcement learning** -  In this class of problems, the system or agent has to learn how to interact with its environment. This can be encoded by means of a policy a = π(x), which specifies which action to take in response to each possible input x (derived from the environment state).
+- [ ] The difference from supervised learning (SL) is that the system is not told which action is the best one to take (i.e., which output to produce for a given input). Instead, the system just receives an occasional reward (or punishment) signal in response to the actions that it takes. This is like learning with a critic, who gives an occasional thumbs up or thumbs down, as opposed to learning with a teacher, who tells you what to do at each step.
 ## Handbook of AI and Big Data (Chap 1, 2, 7)
 - [ ]  
 ## Python for Fianance
