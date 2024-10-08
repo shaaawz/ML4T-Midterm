@@ -291,7 +291,24 @@ relationship between X and Y.
   - another measure of the linear relationship between X and Y
 
 ### Chapter 8: Tree Based Models (8.1 - 8.2)
-- [ ]  Predicted Values are known as terminal nodes or leaves of the tree. Decision trees are typically drawn upside down, the bottom of the tree. The points along the tree where the predictor space is split are referred to as internal nodes.
+- [ ]  Predicted Values are known as terminal nodes or leaves of the tree. Decision trees are typically drawn upside down, with leaf nodes at the bottom of the tree. The points along the tree where the predictor space is split are referred to as internal nodes.
+- [ ]   it is computationally infeasible to consider every possible partition of the feature space into J boxes. For this reason, we take a top-down, greedy approach that is known as recursive binary splitting. The approach is top-down because it begins at the top of the tree (at which point all observations belong to a single region) and then successively splits the predictor space; each split is indicated via two new branches further down on the tree. It is greedy because at each step of the tree-building process, the best split is made at that particular step, rather than looking ahead
+and picking a split that will lead to a better tree in some future step.
+- [ ]  Best to grow a very large tree and then **prune** the tree back in order to obtain a subtree. Uur goal is to select a subtree that leads to the lowest test error rate. Given a subtree, we can estimate its test error using cross-validation or the validation set approach.
+- [ ]  *Cost complexity pruning*—also known as weakest link pruning - explained on page 336
+- [ ]  **Building A Regression Tree**
+  - 1. Use recursive binary splitting to grow a large tree on the training data, stopping only when each terminal node has fewer than some minimum number of observations.
+  - 2. Apply cost complexity pruning to the large tree in order to obtain a sequence of best subtrees, as a function of α.
+  - 3. Use K-fold cross-validation to choose α. That is, divide the training observations into K folds. For each k = 1, . . . , K:
+    - (a) Repeat Steps 1 and 2 on all but the kth fold of the training data.
+    - (b) Evaluate the mean squared prediction error on the data in the left-out kth fold, as a function of α.
+    - Average the results for each value of α, and pick α to minimize the average error.
+  - 4. Return the subtree from Step 2 that corresponds to the chosen value of α
+- [ ]  A **classification tree** is very similar to a regression tree, except that it is used to predict a qualitative response rather than a quantitative one. For a classification tree, we predict that each observation belongs to the most commonly occurring class of training observations in the region to which it belongs.
+- [ ]   If the relationship between the features and the response is well approximated by a linear model as in (8.8), then an approach such as linear regression will likely work well, and will outperform a method such as a regression tree
+that does not exploit this linear structure. If instead there is a highly nonlinear and complex relationship between the features and the response as indicated by model (8.9), then decision trees may outperform classical approaches. 
+
+
 ## Machine Learning (Chap 1, 3, 8)
 - [ ]  
 
