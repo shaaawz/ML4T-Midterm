@@ -151,8 +151,44 @@ Topics in ML4T to study for Midterm - feel free to add your notes!
   - [ ] Active Managers
       - alpha can be predicted
       - pick individual stocks with different weights
-  - [ ] 
-
+  ## Technical Analysis 
+  - [ ] Fundemental Analysis looks at value, earnings, dividends, cash flow, book value
+  - [ ] Technical Analysis looks at:
+      - patterns, trends in stock life
+      - historic price and volume ONLY
+      - Computes statistics on time series data called **indicators**
+      - indicators are Heuristics (hints at buy/sell opportunities)
+   - [ ] Technical Analysis is better thought of as a trading approach, rather than an investing approach
+   - [ ] Why it might work:
+      - There is important information in price changes - it reflects buyer/seller sentiments
+      - Heuristics can work
+   - [ ] When is Technical Analysis Effective?
+      - Individual indicators are weak, but combining indicators has value, and can provide strong predictive power
+      - Look for contrasts in data (compare stock to the market)
+      - Most effective in shorter time periods
+   - [ ] Fundemental Analysis most valuable over years (long periods of time)
+   - [ ] **Technical Indicators:**
+      - **Momentum** - over n days, how much has price changed?
+        - Positive (buy) vs Negative Momentum, Steep vs Shallow Momentum
+        - Momentum[t] = price[t]/price[t-n] - 1 where n = # of days
+        - expected range: (-.5, .5)  
+      - **Simple Moving Average** - average price of values in n day window
+        - SMA = price[t] / price[t - n:t] - 1
+        - expected range: (-.5, .5)  
+        - Lagged Movement when graphed compared to actual price changes
+        - Volatility affects how SMA is used (standard deviation tells us about volatility)
+          - low volatility = smaller SMA used as trading trigger
+          - high volatility = larger SMA used as trading trigger   
+        - current price crosses SMA line indicates potential movement signal
+        - Proxy fo underlying "true value" of company
+        - string diverson can represent buy/sell opportunities
+        - SMA + Momentum together creates a strong trading signal
+      - **Bollinger Bands**
+        - Look for cross from outside to inside is a trading signal because we expect it to go bakc to average
+        - BollingerBand[t] = price[t] - SMA[t] / 2 * std[t]
+        - expected range: (-1, 1)
+   - [ ] **Normalization:** takes all factors and makes ranges (-1, 1) so they have same weighted effect
+       - Normed = values - mean / values.std()
 # NOTES FROM READINGS:  
 ## Probablistic Machine Learning (Chap 1)
 - [ ] Machine Learning: A computer program is said to learn from experience E with respect to some class of tasks T,
