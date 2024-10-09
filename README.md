@@ -345,9 +345,6 @@ and picking a split that will lead to a better tree in some future step.
 that does not exploit this linear structure. If instead there is a highly nonlinear and complex relationship between the features and the response as indicated by model (8.9), then decision trees may outperform classical approaches. 
 
 
-## Machine Learning (Chap 1, 3, 8)
-- [ ]  
-
 ## What Hedge Funds Really Do (Chap 2, 4, 5, 7, 8, and 12)
 **Chapter 2: So You Wnat to Be a Hedge FUnd Manager**
 - [ ]  4 Strageties of Funds
