@@ -364,7 +364,36 @@ that does not exploit this linear structure. If instead there is a highly nonlin
 - [ ] Front running - broker issues trades in advance of those of its clients, knowing the price movements that will result in executing the client orders (ethics are dubious)
 
 **Chapter 5: Introduction to Company Valuation**
-- [ ] 
+- [ ] Current price below estimated value - opportunity to go long
+- [ ] If asset is overpriced, it presents a short opportunity
+- [ ] **Margin of safety**: only buy stocks whose price was well below investor's estimate of true value
+- [ ] **Fundamental Analysis** based on business operations & finances
+- [ ] **Technical Analysis** predicts stock prices based on past price behaviors, also called "charting"
+- [ ] 3 Methods for Estimating Company Value
+    - Book Value: sum of assets & liabilities
+    - Instrinsic Value: Future dividends to be paid by the company
+    - Earnings Growth: Projection of expanded earnings into the future
+- [ ] **Book Value**
+    - doesn't reflect future prospects
+- [ ]  Based on Assets - productive items that the business owns
+    - Tangible Assets: Quickly can be converted to cash. examples: factories, cars, buildings
+    - Intangible Assets: Cannot be quickly converted to cash. examples: patents
+- [ ] Liabilities: financial obligations, debts, contracts, commitments into the future 
+- [ ] Net Worth: approximation of how much money is left after company sells all assets and pays off all liabilities
+- [ ] Book value does not equal market capitalization (value appraised by market value)
+- [ ] Book Value is usually below actual price firm is worth, except in a recession, then book value may overstate true value
+- [ ] Price to Book Ratio = share price / book value per price
+- [ ] **Instrinsic Value** Dividend-based valuation
+- [ ] Takes into account time value of money
+- [ ] Assets more valuable if they generate cash into future
+- [ ] **Discounting**: negotiating a price that converts a stream of future cash flows into lump sum
+- [ ] Present Value = future value / (1 + Discount Rate)^N
+- [ ] N = number of years until payment
+- [ ] Discount Rate (DR): rate of return the investor could receive from investing in a best alternative asset
+- [ ] Dividends - stream of payment paid regular basis for infinite future
+- [ ] Instrinsic Value: present value of all future returns, challenging to estimate future value cash flow
+- [ ] The Dividend Discount Model: $1 loses value over time
+- [ ] For Long-Term ownership of an asset: PV = FV / DR
 # ADDITIONAL RESOURCES: 
 
 - [ ] https://lucylabs.gatech.edu/ml4t/#
