@@ -189,7 +189,9 @@ Topics in ML4T to study for Midterm - feel free to add your notes!
         - expected range: (-1, 1)
    - [ ] **Normalization:** takes all factors and makes ranges (-1, 1) so they have same weighted effect
        - Normed = values - mean / values.std()
+
 # NOTES FROM READINGS:  
+
 ## Probablistic Machine Learning (Chap 1)
 - [ ] Machine Learning: A computer program is said to learn from experience E with respect to some class of tasks T,
 and performance measure P, if its performance at tasks in T, as measured by P, improves with
@@ -240,11 +242,71 @@ often be time consuming and expensive
 - [ ] This treats the problem of unsupervised learning as one of **density estimation**. The idea is that a good model will not be “surprised” by actual data samples
 - [ ] **Reinforcement learning** -  In this class of problems, the system or agent has to learn how to interact with its environment. This can be encoded by means of a policy a = π(x), which specifies which action to take in response to each possible input x (derived from the environment state).
 - [ ] The difference from supervised learning (SL) is that the system is not told which action is the best one to take (i.e., which output to produce for a given input). Instead, the system just receives an occasional reward (or punishment) signal in response to the actions that it takes. This is like learning with a critic, who gives an occasional thumbs up or thumbs down, as opposed to learning with a teacher, who tells you what to do at each step.
+
+
 ## Handbook of AI and Big Data (Chap 1, 2, 7)
-- [ ]  
+
+### On Machine Learning Applications in Investments
+- [ ] Motivations
+    - Enhanced Decision-Making: ML can analyze vast amounts of data quickly, enabling more informed investment decisions.
+    - Predictive Analytics: Algorithms can identify patterns and trends, helping to forecast market movements and asset performance.
+    - Risk Management: ML models can assess and manage risk more effectively by analyzing historical data and identifying potential pitfalls.
+    - Cost Efficiency: Automation through ML can reduce operational costs and improve efficiency in trading and portfolio management.
+    - Personalization: ML can tailor investment strategies to individual preferences and risk tolerances, enhancing client satisfaction.
+- [ ] Challenges
+    - Data Quality and Quantity: Accessing high-quality, relevant data can be difficult. Inaccurate or biased data can lead to poor model performance.
+    - Model Overfitting: Complex models may perform well on historical data but fail to generalize to new, unseen data.
+Regulatory and Ethical Issues: Compliance with regulations and addressing ethical concerns, such as algorithmic bias, are significant challenges.
+    - Market Dynamics: Financial markets are influenced by numerous unpredictable factors, making it difficult for models to adapt quickly.
+    - Interpretability: Many ML models are seen as "black boxes," making it hard for investors to understand and trust their outputs.
+- [ ] Solutions
+    - Robust Data Management: Implementing strong data governance practices to ensure data quality and relevance.
+    - Regular Model Validation: Continuously testing and updating models with new data to prevent overfitting and improve adaptability.
+    - Transparent Algorithms: Developing interpretable models and tools that help explain how decisions are made can build trust with stakeholders.
+    - Hybrid Approaches: Combining ML with traditional financial analysis methods can enhance robustness and accuracy.
+    - Staying Informed: Keeping up with regulatory changes and incorporating compliance checks into ML processes can mitigate legal risks.
+- [ ] ML techniques can deliver performance above and beyond traditional approaches if applied to the right problem.
+- [ ] The source of ML algorithms’ outperformance includes the ability to consider nonlinear and interaction effects among the input features.
+- [ ] Ensembling of ML algorithms often delivers better performance than what individual ML algorithms can achieve.
+
+### ALTERNATIVE DATA AND AI IN INVESTMENT  RESEARCH
+- [ ] Alternative Data and AI in Investment Research refers to the use of non-traditional data sources and advanced analytics to enhance investment decision-making. Here’s a breakdown of both components:
+- [ ] Alternative Data Definition: Alternative data includes any data that is not commonly used in traditional financial analysis. This can encompass a wide range of information, such as:
+    - Social media sentiment
+    - Web traffic and search trends
+    - Satellite imagery (e.g., for tracking retail foot traffic)
+    - Supply chain data
+    - Credit card transactions
+    - Weather data
+- [ ] Benefits:
+    - Timeliness: Alternative data can provide real-time insights that traditional data sources may lag behind.
+    - Unique Insights: It can reveal trends and consumer behaviors that are not captured in standard financial reports.
+    - Competitive Advantage: Firms that effectively utilize alternative data can gain an edge over competitors.
+    - The impact of AI and alternative data on investment research is seen as evolutionary rather than revolutionary, according to - [ ] Goldman Sachs. They view nonstructured, alternative, and big data as integral components of their research process, alongside analytical tools like AI, machine learning (ML), and natural language processing (NLP). Goldman Sachs does not create strict distinctions between traditional and alternative data; instead, they integrate various data types and analyses as needed, combining unstructured data with traditional metrics.
+- [ ] Their approach emphasizes collaboration between subject matter experts and data scientists to minimize biases in algorithms and data. As the field evolves, they anticipate that the integration of AI and alternative data will become so seamless that terms like "big" and "alternative" may eventually lose significance in the research process. This integrated, iterative approach is expected to enhance their investment research outcomes over time.
+
+### MACHINE LEARNING AND BIG DATA TRADE EXECUTION SUPPORT
+- [ ] Feature Importance refers to a technique used in machine learning to determine the relevance of different input variables (or features) in predicting an outcome. By calculating a score or rank for each feature, it helps to identify which variables significantly influence the model's predictions. The main goal is to reduce the complexity of models by highlighting the most important inputs. This allows traders to focus on the most meaningful factors when selecting trading strategies. Done with Permutation Importance and Tree-based Methods
+- [ ]  Transaction Cost Analysis (TCA): is a comprehensive approach used by traders and investment firms to evaluate the costs associated with executing trades. It helps assess the efficiency and effectiveness of trading strategies by analyzing various costs involved in the transaction process.
+- [ ] Steps ML models should implement:
+    - Cleansing and Normalizing Data
+    - Chucking / Breaking Down Data into Subsets for Easier Interpretation
+    - Data labeling and Testing and Training Datasets
+    - Selecting the Model's Features
+    - Selecting the ML Model's Library and Training a supervised Model
+    - Selecting a Feature Importance Approach
+- [ ] Semi-Supervised Learning is a machine learning approach that combines both labeled and unlabeled data to improve the learning process. It lies between supervised learning, which uses only labeled data, and unsupervised learning, which uses only unlabeled data.
+- [ ] natural language processing (NLP):  a subfield of artificial intelligence focused on the interaction between computers and human language. It involves the development of algorithms and models that enable machines to understand, interpret, and generate human language in a meaningful way.
+    
+- [ ] A stock clustering model is a machine learning approach used to group stocks into clusters based on their characteristics, behaviors, or performance metrics. The goal is to identify similarities among stocks, which can help investors and analysts make more informed decisions about portfolio management, risk assessment, and trading strategies.
 
 ## Deep Learning (Chap 1, 2.1, 2.2)
-- [ ]  
+- [ ] Bayes Theorem: is a fundamental concept in probability theory that describes how to update the probability of a hypothesis based on new evidence. It provides a mathematical framework for revising beliefs in light of new data.
+- [ ] Prior Probability: P(H) - The initial probability of a hypothesis before observing any new evidence.
+- [ ] Likelihood P(E|H) - The probability of observing the evidence given that the hypothesis is true.
+- [ ] Marginal Probability P(E): The total probability of observing the evidence under all possible hypotheses.
+- [ ] Posterior Probability P(H|E): The updated probability of the hypothesis after taking into account the new evidence.
+- [ ] Formula: P(H|E) = P(E|H) * P(H) / P(E)
 
 ## Introduction to Statistical Learning with Applications in Python (Chap 1, 2.2, 3.1-3.3, 3.5, 8.1 - 8.2)
 ### Chapter 2: Statistical Learning
@@ -305,6 +367,7 @@ against which to compare other methods.
   -  Given a positive integer K and a test observation x0, the KNN classifier first identifies the K points in the training data that are closest to x0, represented by N0. It then estimates the conditional probability for class j as the fraction of points in N0 whose response values equal j
   -  Better for unbiased
   -  finds average of the y-values of the K neighbors to x0 test observation
+
 ### Chapter 3: Linear Regression (3.1 - 3.3)
 - [ ] Simple linear regression
   - lives up to its name: it is a very straightforward
@@ -346,7 +409,7 @@ that does not exploit this linear structure. If instead there is a highly nonlin
 
 
 ## What Hedge Funds Really Do (Chap 2, 4, 5, 7, 8, and 12)
-**Chapter 2: So You Wnat to Be a Hedge FUnd Manager**
+###Chapter 2: So You Want to Be a Hedge Fund Manager
 - [ ]  4 Strageties of Funds
   - Equity - emphasis on stock selection
   - Arbitrage - where managers seek instances where price relationships between assets fall outside normal variation, and bet on the relationship returning to normal
@@ -368,7 +431,7 @@ that does not exploit this linear structure. If instead there is a highly nonlin
     - if portfolio doubled over 15 years, that means CAGR = (72/15) = 4.8%
 
 
-**Chapter 4: Market-Making Mechanics**
+### Chapter 4: Market-Making Mechanics
 - [ ] Markets - locations where sellers and customers convene to exchange goods, or financial instruments
 - [ ] Investors transact exchanges thorugh brokerage firms, who in turn trade with market makers (specialists)
 - [ ] NASDAQ - no floor, all tradining occurs electronically, no specialists
@@ -396,7 +459,7 @@ that does not exploit this linear structure. If instead there is a highly nonlin
 - [ ] Competitive advantage hinges on milliseconds
 - [ ] Front running - broker issues trades in advance of those of its clients, knowing the price movements that will result in executing the client orders (ethics are dubious)
 
-**Chapter 5: Introduction to Company Valuation**
+### Chapter 5: Introduction to Company Valuation
 - [ ] Current price below estimated value - opportunity to go long
 - [ ] If asset is overpriced, it presents a short opportunity
 - [ ] **Margin of safety**: only buy stocks whose price was well below investor's estimate of true value
@@ -427,7 +490,8 @@ that does not exploit this linear structure. If instead there is a highly nonlin
 - [ ] Instrinsic Value: present value of all future returns, challenging to estimate future value cash flow
 - [ ] The Dividend Discount Model: $1 loses value over time
 - [ ] For Long-Term ownership of an asset: PV = FV / DR
-**Chapter 7: Capital Assets Pricing Model**
+
+### Chapter 7: Capital Assets Pricing Model
 - [ ] Core Belief: very few investors can produce sustained returns superior to market averages
 - [ ] Core of CAPM: Distinguishing between stock returns that derive from broad market movements and those that do not
 - [ ] Positive Correlation between stock returns - events affect both assets in the same general way
@@ -447,7 +511,7 @@ that does not exploit this linear structure. If instead there is a highly nonlin
 - [ ]  -w is used when shorting a stock
 - [ ]  Beta Balanced Portfolio: sum(beta_i * wi) = 0 and sum(|w_i|) = 1.0
 
-**Chapter 8: Efficient Market Hypothesis**
+### Chapter 8: Efficient Market Hypothesis
 - [ ] Most markets are efficient - information that can affect prices travel quickly throughout a market and prices are affected accordingly
 - [ ] Measure of efficiency: speed with which stock's price adjusts to company relevent information
 - [ ] Investor self interest causes information to reflect in stock prices quickly
@@ -458,7 +522,7 @@ that does not exploit this linear structure. If instead there is a highly nonlin
     - Semi-Strong Form: asset prices adjust immediately to all publicly available information
     - Strong Form: Asset prices adjust immediately to reflect all relevent info, including available to insiders
 
-**Chapter 12: Overcoming Data Quirks to Design Trading Strategies**
+### Chapter 12: Overcoming Data Quirks to Design Trading Strategies
 - [ ] Since stock price data is widely avaiable and must be used with special care, there are pitfalls that one must avoid in price data and coping strategies to overcome these pitfalls
 - [ ] Actual vs Adjusted Stock Price Data - stock prices change for reasons other than market supply and demand.
 - [ ] Adjusted Price accounts for splits and dividends issued
