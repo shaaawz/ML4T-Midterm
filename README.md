@@ -446,6 +446,7 @@ that does not exploit this linear structure. If instead there is a highly nonlin
 - [ ] where R = Beta of stock * market + Alpha of stock
 - [ ]  -w is used when shorting a stock
 - [ ]  Beta Balanced Portfolio: sum(beta_i * wi) = 0 and sum(|w_i|) = 1.0
+
 **Chapter 8: Efficient Market Hypothesis**
 - [ ] Most markets are efficient - information that can affect prices travel quickly throughout a market and prices are affected accordingly
 - [ ] Measure of efficiency: speed with which stock's price adjusts to company relevent information
@@ -456,6 +457,7 @@ that does not exploit this linear structure. If instead there is a highly nonlin
     - Weak Form: future asset prices cannot be predicted using historical price/volume data
     - Semi-Strong Form: asset prices adjust immediately to all publicly available information
     - Strong Form: Asset prices adjust immediately to reflect all relevent info, including available to insiders
+
 **Chapter 12: Overcoming Data Quirks to Design Trading Strategies**
 - [ ] Since stock price data is widely avaiable and must be used with special care, there are pitfalls that one must avoid in price data and coping strategies to overcome these pitfalls
 - [ ] Actual vs Adjusted Stock Price Data - stock prices change for reasons other than market supply and demand.
