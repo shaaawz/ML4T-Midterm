@@ -427,6 +427,52 @@ that does not exploit this linear structure. If instead there is a highly nonlin
 - [ ] Instrinsic Value: present value of all future returns, challenging to estimate future value cash flow
 - [ ] The Dividend Discount Model: $1 loses value over time
 - [ ] For Long-Term ownership of an asset: PV = FV / DR
+**Chapter 7: Capital Assets Pricing Model**
+- [ ] Core Belief: very few investors can produce sustained returns superior to market averages
+- [ ] Core of CAPM: Distinguishing between stock returns that derive from broad market movements and those that do not
+- [ ] Positive Correlation between stock returns - events affect both assets in the same general way
+- [ ] Returns = price[t] / price[t-1] -1
+- [ ] Basic Measure of Relationship between stocks: Correlation
+- [ ] Correlation Coefficient measures frequency in which prices of two assets mov ein the same direction
+- [ ] -1 = no correlation, 0 = no visible relationship, 1 = perfect positive relationship
+- [ ] Linear relationship: Return = Beta * SPX + Alpha
+- [ ] Alpha: systematic difference in performance of a stock over and above the market, presumed to be zero
+- [ ] Beta: stock's price volatility relative to the overall market. Beta determines how much more/less a stock will stock will change with regards to market
+- [ ] Correlation Coefficients: capture "tightness" of the scatter around regression line, summarizes pattern in that scatter
+- [ ] higher correlation coefficient suggests that effcts to market will have similar effects to stock
+- [ ] "Buying Beta": Investing in stock more volatile than market
+- [ ] "Buying Alpha": Finding stocks that systematically outperform market
+- [ ] Return of Portfolio = w1 * R1 + w2 * R2 +....wN * RN
+- [ ] where R = Beta of stock * market + Alpha of stock
+- [ ]  -w is used when shorting a stock
+- [ ]  Beta Balanced Portfolio: sum(beta_i * wi) = 0 and sum(|w_i|) = 1.0
+**Chapter 8: Efficient Market Hypothesis**
+- [ ] Most markets are efficient - information that can affect prices travel quickly throughout a market and prices are affected accordingly
+- [ ] Measure of efficiency: speed with which stock's price adjusts to company relevent information
+- [ ] Investor self interest causes information to reflect in stock prices quickly
+- [ ] High Tradining Volume Stocks w Transparency and wide disclosure of relevent info have high efficiency
+- [ ] Niche Markets (Poor info transmission) are less efficient
+- [ ] 3 Versions of EMH:
+    - Weak Form: future asset prices cannot be predicted using historical price/volume data
+    - Semi-Strong Form: asset prices adjust immediately to all publicly available information
+    - Strong Form: Asset prices adjust immediately to reflect all relevent info, including available to insiders
+**Chapter 12: Overcoming Data Quirks to Design Trading Strategies**
+- [ ] Since stock price data is widely avaiable and must be used with special care, there are pitfalls that one must avoid in price data and coping strategies to overcome these pitfalls
+- [ ] Actual vs Adjusted Stock Price Data - stock prices change for reasons other than market supply and demand.
+- [ ] Adjusted Price accounts for splits and dividends issued
+- [ ] Split the stock: divide each old share into a larger number of new shares in order to keep stock accessible for retail groups of investors (value of company doesn't change, but each share is now less expensive and old shares are worth N new shares)
+- [ ] Reverse Splits also exist
+- [ ] Dividends: Shareholders can earn income from stocks without selling them if the company board of directors declares dividends a payout to shareholds of cash that is a portion of hte company's annual earnings
+- [ ] Payout ratio
+- [ ] Value of stock needs to take into account dividend payouts. Dividend Yield: amount of annual dividend per share / share price
+- [ ] Breaks in Series and Missing Data: Necessary to fill the data with reasonable guesses
+- [ ] fill forward -treat missing values as the same level as the last known value
+- [ ] fill backwareds - missing values at the beginning of the series
+- [ ] fill forward first, fill backwards only where you can't fill forward
+- [ ] Missing / Delisted stocks dude to when company goes public or company being acquired by another, going private, or out of business
+- [ ] Only 30% of hedge funds that existed 10 years ago are still in business today
+- [ ] "trend to omit" - analysts scrubbing sample to include only companies that operate during a specific period omits more failures than successes, causing survivor bias
+- [ ] Analyst goal should be to sanity check the data sample and ensure that it will give a realisitic and relevant view of the data - rather than an idealistic and uncritical view. 
 # ADDITIONAL RESOURCES: 
 
 - [ ] https://lucylabs.gatech.edu/ml4t/#
